@@ -1,0 +1,536 @@
+@media screen and (min-width: 800px) {
+
+/*Sumario CSS_Styles 
+1 - Geral
+2 - Headers
+3 - Menus
+4 - Textos e Titulos
+5 - Color e backgrounds
+6 - Card
+7 - Listbox
+*/
+
+/*#E6F3FF" "#EBF5FE"  #A7D6D5   0066FF #66CCFF*/
+/* 1 - Geral */
+
+
+	/*definindo fundo pagina */
+	/*.fundo {*/
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+	/*background: rgb(0,183,234); /* Old browsers */
+	/*background: -moz-linear-gradient(-45deg, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(-45deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(135deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*}*/
+	*{
+		box-sizing: border-box;
+	}
+
+	html {
+		background-color: rgba(2, 48, 119, 0.34);
+		padding-bottom: 10%;
+		width: 100%;
+	}
+
+	div > tr {
+		box-sizing: border-box;
+		border: 2px solid grey;
+		padding: 10px;
+	}
+	@-moz-document url-prefix() {
+		  fieldset { display: table-cell; }
+	}
+
+	/*Alinhamento do nome empresa*/
+	 body > header > div p {
+	 	position: absolute;
+	 	margin-left: 95px;
+	 	top: 25px;
+		color: #CCC;
+	}
+
+	/*definindo fonte da pagina */
+	body {
+		font-family: sans-serif;
+	}
+
+	/*definindo bordar superio menu */
+	body {
+		margin: 0px;
+	}
+
+	/*definindo cor fundo borda superior da pagina */
+	header {
+		background-color: rgba(2, 48, 119, 0.64);
+		height: 65px;
+		width: 100%;
+	}
+
+	/*definindo stilo do menu */
+	ul a {
+		text-decoration: none;
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0,0.5);
+	}
+
+	/*definindo alinhamento a esqueda criar menu */
+	ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	/*definindo transparencia do menu */
+	nav > ul a {
+		color: #FFF;
+	}
+
+	/*define alinhamento do menu superior */
+	nav li {
+		top: -65px;
+		margin-right: 1px;
+		position: relative;
+	}
+
+	/*definindo retratil do menu */
+	nav > ul ul {
+		top: 90px;
+		left: -110px;
+	}
+
+	nav > ul > li {
+		display: inline-block;
+	}
+
+	/*definindo fundo do menu */
+	nav ul li ul {
+		background-color: grey;
+	}
+
+	/*definindo sobreamento ao passar mouse */
+	ul a:hover {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	/*definindo bloco para agrupar menu */
+	nav > ul > li {
+		display: inline-block;
+	}
+
+	/*definindo alinhamento superior menu */
+	nav {
+		float: right;
+	}	
+
+	/*definindo ocultamento do menu */
+	nav > ul ul {
+		position: absolute;
+		display: none;
+	}
+
+	/*definindo largura do menu */
+	ul a {
+		padding: .2rem .2rem;
+	}
+
+	/*definindo efeito deslizar do menu */
+	nav li:hover > ul {
+		display: block;
+	}
+
+	/*definindo alinhamento list a esquerda */
+	ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	/*definindo tamanho do alinhamento list a esquerda */
+	body > ul {
+		position: absolute;
+		margin-top: 10%;
+		margin-left: 2%;	
+		height: left;
+		width: 20%;
+		float: 37%;
+	}
+
+	/*definindo fonte do titulo h1 */
+	div > h3 {
+		font-family: sans-serif;
+		font-weight: normal;	
+		font-weight: bold;
+		font-size: 35px;
+		color: #118593;*/
+		padding-left: -40%;
+
+	}
+
+	form {
+		margin-left: 0%;
+	}
+
+	/*Formata letra */
+	section > form > label {
+		font-size: 25px;
+	}
+
+
+	/*Agrupando label */
+	label input, label textarea {
+		display: block;
+	}
+
+	/*Definindo tamanho da textarea */
+	/*label > textarea{
+		margin-left: -10%;
+		padding-right: 35%;
+		padding-bottom: 40%;
+		padding-size: 21px;
+		background: #e6f2ff;
+	}*/
+
+	/*definindo Botões */
+	.botao_base {
+
+		/*position: absolute;*/
+		margin-top: 29px;
+		margin-left: 64%;	
+		height: left;
+		
+		float: 5px;
+		font-weight: bold;
+		line-height: 50px;
+		width: 60px;
+
+		/*color: #FFF;*/
+		top: -590px;
+		
+		position: relative;
+		background-size: 92px auto;
+		border-radius: 50%;
+	}
+
+	/* definindo cores para botoes */
+	.botao_base-azul{
+		background-color: rgb(102, 179, 255);
+		color: #FFF;
+
+	}
+	.botao_base-vermelho{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 102, 51);*/
+		color: rgb(255, 102, 51);	
+	}
+
+	.botao_base-amarelo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 255, 0);*/
+		color: rgb(255, 255, 0);
+	}
+
+	.botao_base-verde{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(0, 153, 153);*/
+		color: rgb(0, 153, 153);
+	}
+
+	.botao_base-lilas{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(204, 153, 255);*/
+		color: rgb(204, 153, 255);
+	}
+	.botao_base-bordo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 218, 179);*/
+		color: rgb(255, 218, 179);
+	}
+
+	.botao_base-roxo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(204, 102, 204);*/
+	 	color: rgb(204, 102, 204);
+	 }
+
+	 	
+	.nomeEmpresa{
+		margin-left: 4%;
+		margin-top: -10rem; 
+		color: rgb(255, 255, 255);
+		text-shadow: rgb(255, 255, 255);
+	}
+
+	/*Agrupamdo botões */
+	section > div > button {
+		display: block;
+	} 
+
+}
+
+@media screen and (max-width: 840px){
+	
+	/*.fundo {*/
+		 /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+	/*background: rgb(0,183,234); /* Old browsers */
+	/*background: -moz-linear-gradient(-45deg, rgba(0,183,234,1) 0%, rgba(0,158,195,1) 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(-45deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(135deg, rgba(0,183,234,1) 0%,rgba(0,158,195,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*}*/
+	*{
+		box-sizing: border-box;
+	}
+	div > .nomeEmpresa{
+		font-size: 1.7rem;
+		margin-left: 24%;
+		margin-top: -17%; 
+		color: rgb(255, 255, 255);
+	}
+
+	.btnMenuSup {
+		margin-top: -100%;
+		margin-left: -100%;
+	}
+
+
+	div > .exibDados {
+		margin: 10%;
+	}
+
+	 div > tr {
+		box-sizing: border-box;
+		border: 2px solid grey;
+		padding: 10px;
+	}
+	@-moz-document url-prefix() {
+		  fieldset { display: table-cell; }
+	}
+
+	html {
+		/*background-color: rgba(2, 48, 119, 0.34);*/
+	}
+
+	/*Alinhamento do nome empresa*/
+	 body > header > div p {
+	 	position: absolute;
+	 	margin-left: 95px;
+	 	top: 25px;
+		color: #CCC;
+	}
+
+	/*definindo fonte da pagina */
+	body {
+		font-family: sans-serif;
+	}
+
+	/*definindo bordar superio menu */
+	body {
+		margin: 0px;
+	}
+
+	/*definindo cor fundo borda superior da pagina */
+	header {
+		background-color: rgba(2, 48, 119, 0.64);
+		height: 40px;
+		width: 110%;
+	}
+
+	/*definindo stilo do menu */
+	ul a {
+		text-decoration: none;
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0,0.5);
+	}
+
+	/*definindo alinhamento a esqueda criar menu */
+	ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	/*definindo transparencia do menu */
+	nav > ul a {
+		color: #FFF;
+	}
+
+	/*define alinhamento do menu superior */
+	nav li {
+		top: -65px;
+		margin-right: 10px;
+		position: relative;
+	}
+
+	/*definindo retratil do menu */
+	nav > ul ul {
+		top: 90px;
+		left: -110px;
+	}
+
+	nav > ul > li {
+		display: inline-block;
+	}
+
+	/*definindo fundo do menu */
+	nav ul li ul {
+		background-color: grey;
+	}
+
+	/*definindo sobreamento ao passar mouse */
+	ul a:hover {
+		background-color: rgba(0,0,0,0.5);
+	}
+
+	/*definindo bloco para agrupar menu */
+	nav > ul > li {
+		display: inline-block;
+	}
+
+	/*definindo alinhamento superior menu */
+	nav {
+		float: right;
+	}	
+
+	/*definindo ocultamento do menu */
+	nav > ul ul {
+		position: absolute;
+		display: none;
+	}
+
+	/*definindo largura do menu */
+	ul a {
+		padding: .9rem .9rem;
+	}
+
+	/*definindo efeito deslizar do menu */
+	nav li:hover > ul {
+		display: block;
+	}
+
+	/*definindo alinhamento list a esquerda */
+	ul {
+		list-style: none;
+		padding: 0px;
+	}
+
+	/*definindo tamanho do alinhamento list a esquerda */
+	body > ul {
+		position: absolute;
+		margin-top: 10%;
+		margin-left: 2%;	
+		height: left;
+		width: 20%;
+		float: 37%;
+	}
+
+	/*definindo fonte do titulo h1 */
+	h1 {
+		font-family: sans-serif;
+		font-weight: normal;	
+		font-weight: bold;
+		font-size: 5px;
+		color: #118593;
+		padding-left: 2%;
+
+	}
+
+	form {
+		margin-left: 10%;
+	}
+
+	/*Formata letra */
+	section > form > label {
+		font-size: 15px;
+	}
+
+
+	/*Agrupando label */
+	label input, label textarea {
+		display: block;
+	}
+
+	/*Definindo tamanho da textarea */
+	/*label > textarea{
+		margin-right: 1;
+		margin-left: -5%;
+		padding-right: 90%;
+		padding-bottom: 65%;
+		background: #e6f2ff;
+		font-size: 11px;
+	}*/
+
+	/*definindo Botões */
+	.botao_base {
+
+		/*position: absolute;*/
+		margin-top: 29px;
+		margin-left: 64%;	
+		height: left;
+		
+		float: 5px;
+		font-weight: bold;
+		line-height: 50px;
+		width: 60px;
+
+		/*color: #FFF;*/
+		top: -590px;
+		
+		position: relative;
+		background-size: 92px auto;
+		border-radius: 50%;
+	}
+
+	/* definindo cores para botoes */
+	.botao_base-azul{
+		background-color: rgb(102, 179, 255);
+		color: #FFF;
+
+	}
+	.botao_base-vermelho{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 102, 51);*/
+		color: rgb(255, 102, 51);	
+	}
+
+	.botao_base-amarelo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 255, 0);*/
+		color: rgb(255, 255, 0);
+	}
+
+	.botao_base-verde{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(0, 153, 153);*/
+		color: rgb(0, 153, 153);
+	}
+
+	.botao_base-lilas{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(204, 153, 255);*/
+		color: rgb(204, 153, 255);
+	}
+	.botao_base-bordo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(255, 218, 179);*/
+		color: rgb(255, 218, 179);
+	}
+
+	.botao_base-roxo{
+		background-color: rgb(102, 179, 255);
+		/*background-color: rgb(204, 102, 204);*/
+	 	color: rgb(204, 102, 204);
+	 }
+
+	/*Agrupamdo botões */
+	section > div > button {
+		display: block;
+	} 
+
+	form div label  tr  dd {
+		display: table;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.aling_button{
+		 vertical-align: 100px;
+	}
+}
