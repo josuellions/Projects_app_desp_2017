@@ -283,43 +283,49 @@
 
 	}
 	.nomeEmpresa{
-		font-size: 1rem;
-		margin-left: 10%;
+		font-size: 0.9rem;
+		margin-left: 14%;
 		margin-top: -7%; 
 		color: rgb(255, 255, 255);
 		text-shadow: rgb(255, 255, 255); 
+		padding: 2%;
 	}
 
 	/*definindo fonte do titulo h1 */
-	h1 {
+	.tituloSup {
+
 		font-family: sans-serif;
 		font-weight: normal;	
 		font-weight: bold;
 		font-size: 1.7rem;
 		color: #118593;
-		margin-top: 10%;
-		padding-bottom: 5%;
+		margin-top: 5%;
+		padding: 2%;
+
 
 	}
 
 	.btnMenuSup {
-		margin-top: 0%;
-		margin-left: 0%;
+		margin-top: -80%;
+		margin-left: 30%;
 	}
 
-
 	.exibDadosEnt {
-		 margin-top: 20%
+		 margin-top: 10%
 		 font-size: 0.5rem; 
 		 margin-left: -1%;
 		 color:#118593;
+
+
 	}
 
 	.exibDadosCx {
+
 		 margin-top: -10%
 		 font-size: 0.5rem; 
 		 margin-left: -1%;
 		 color:#118593;
+
 	}
 
 	tbody {
@@ -327,6 +333,35 @@
 		  margin-left: -1%;
 		  color:#118593;
 	}
+
+
+	/*definindo cor fundo borda superior da pagina */
+	header  > div {
+		background-color: rgba(2, 48, 119, 0.64);
+		/*height: 6%;*/
+		width: 100%;
+		/*background: rgba(2, 48, 119, 0.64);*/
+	}
+
+	.label_01 {
+		font-size: 1.2rem; 
+		margin-left: -1%;
+		 color:#118593;
+		 margin-top: 5% ;
+	}
+
+	.inpute_01 {
+		font-size: 1rem; 
+		margin-left: -10%;
+		 color:#118593;
+	 	 margin-top: 5% ;
+	}
+	.button_01 {
+		margin-left:  0%; 
+		margin-top: 5% ;
+		
+	}
+
 
 /*	 div > tr {
 		box-sizing: border-box;
@@ -351,12 +386,6 @@
 
 
 
-	/*definindo cor fundo borda superior da pagina */
-	header {
-		background-color: rgba(2, 48, 119, 0.64);
-		height: 7%;
-		width: 100%;
-	}
 
 	/*definindo stilo do menu */
 /*	ul a {
