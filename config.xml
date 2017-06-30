@@ -1,0 +1,33 @@
+<?xml	version="1.0"	encoding="UTF-8"?>
+<widgets 	xmlns="http://www.w3.org/ns/widgets"
+	 	xmlns:gap="http://phonegap.com/ns/1.2"
+		id="cadastropessoasapp"
+		version="1.0.2">
+<name>
+		Despesas Mensal
+</name>
+<description>
+		Gestor Despesas Mensais
+</description>
+<author	href="https://github.com/josuellions/Projects_app_desp_2017"	
+		email="josuel_lions@hotmail.com">
+		Josuel A. Lopes - Seven Soluctions Tecnologic
+</author>
+
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <preference name="android-minSdkVersion" value="16" />
+    <platform name="android" />
+<!--
+<config-file platform="android" parent="/manifest" mode="delete">
+        <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+</config-file>
+-->
+
+<icon src="img/logo_seven.png" />
+<plugin name="cordova-plugin-splashscreen" spec="4.0.3" />
+<splash src="splash.png" />
+
+</widgets>
