@@ -160,7 +160,7 @@
 		font-weight: normal;	
 		font-weight: bold;
 		font-size: 35px;
-		color: #118593;*/
+		color: #118593;
 		padding-left: -40%;
 
 	}
@@ -280,21 +280,47 @@
 		box-sizing: border-box;
 	}
 	div > .nomeEmpresa{
-		font-size: 1.6rem;
+		font-size: 1rem;
 		margin-left: 10%;
 		margin-top: -7%; 
 		color: rgb(255, 255, 255);
 		text-shadow: rgb(255, 255, 255); 
 	}
 
+	/*definindo fonte do titulo h1 */
+	h1 {
+		font-family: sans-serif;
+		font-weight: normal;	
+		font-weight: bold;
+		font-size: 1.7rem;
+		color: #118593;
+
+	}
+
 	.btnMenuSup {
 		margin-top: -111%;
-		margin-left: -10%;
+		margin-left: -40%;
 	}
 
 
-	div > .exibDados {
-		margin: 10%;
+	.exibDadosEnt {
+		 margin-top: 10%
+		 font-size: 0.5rem; 
+		 margin-left: -1%;
+		 color:#118593;
+	}
+
+	.exibDadosCx {
+		 margin-top: -20%
+		 font-size: 0.5rem; 
+		 margin-left: -1%;
+		 color:#118593;
+	}
+
+	tbody {
+		 font-size: 0.7rem;
+		  margin-left: -1%;
+		  color:#118593;
 	}
 
 	 div > tr {
@@ -422,16 +448,7 @@
 		float: 37%;
 	}
 
-	/*definindo fonte do titulo h1 */
-	h1 {
-		font-family: sans-serif;
-		font-weight: normal;	
-		font-weight: bold;
-		font-size: 5px;
-		color: #118593;
-		padding-left: 2%;
 
-	}
 
 	form {
 		margin-left: 10%;
