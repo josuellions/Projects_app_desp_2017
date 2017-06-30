@@ -1,7 +1,7 @@
 (function($){
 	$("#btnEnter").click(function(){
 	var settings = {
-	  "url": "http://21.21.21.5:3000/listar_cx/despesa",
+	  "url": "http://21.21.21.5:3000/listar/despesa",
 	  "method": "GET",
 	  "headers": {
 	    "content-type": "application/x-www-form-urlencoded",
@@ -10,16 +10,10 @@
 	  }
 	}
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-});
-
 	$.ajax( settings).done(function(response){
 		var exib =response;
 
 		$.each(exib, function(despesa_ent,valor_ent){
-		//console.log(despesa_ent, valor_ent)
-
 			if(exib.length) {
 				$('#tbList > tbody').append(
 					'<tr>' + '<td>' + this.despesa_ent + 

@@ -32,10 +32,11 @@ include 'construct/construct.php';
 
 	<title>Despesas_app</title>
 </head>
-<body class="fundo">
-	<header>
+<body>
+  <section data-role="page">
+      <header  data-role="header" data-position="fixed" style="background: rgba(2, 48, 119, 0.64);">
 		<!-- Imagem Logo com link -->
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">
 				<div class="form-group" class="pull-left">
 					<div class="col-sm-1">
@@ -44,12 +45,12 @@ include 'construct/construct.php';
 						</a>
 					</div>
 					<!-- Nome da empresa -->
-					<div  class="col-xs-10 col-sm-6 " style="color: #FFF; left: -6%; margin-top: 7%; text-shadow: rgb(255, 255, 255); font-size: 2.5rem;">
+					<div  class="col-xs-12 col-sm-6 ">
 						<div class="nomeEmpresa">
 							<p  title="Nome enpresa">&copy Seven Solutions Tecnologic</p>
 						</div>
 					</div>
-					<div class="pull-right" style="margin-top: 1%">
+					<div class="pull-right">
 						<div  class="form-group">
 						<div class="btnMenuSup">
 							<buton type="button" name="Entrada" class="btn btn-primary"  class="img-circle" aria-label="Alinhar" >
@@ -190,7 +191,7 @@ include 'construct/construct.php';
 </div>	
 			<!-- </form> -->
 		<footer data-role="footer" data-position="fixed">
-			<div class="container-fluid">
+			<div class="container">
 			<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-md-offset-0">
 					<section>
@@ -203,11 +204,11 @@ include 'construct/construct.php';
 									</div>
 								</label><br />
 								<label class="text-danger" class="sr-only" style="font-size: 1.2rem; margin-left: -1%">Valor:<br />
-									<div  class="col-xs-8 col-md-8"  style="font-size: 1rem ; margin-left: -10%">
+									<div  class="col-xs-8 col-md-8"  style="font-size: 1rem ; margin-left: -10%;">
 										<input type="text-primary" name="valor"  placeholder="R$ 0.000,00" ng-model="newDespesa.valor"/>
 									</div>
 								</label><br />
-								<div class="col-xs-12" style="margin-left: -10%;">
+								<div class="col-xs-2" style="margin-left: 90%; margin-top: -32% ;">
 									<button id="btnEnter" class="btn btn-primary" type="submit" name="btn_enter" title="botao_02" >Enter</button>
 								</div>
 							</div>
@@ -217,6 +218,7 @@ include 'construct/construct.php';
 			</div>
 			</div>
 		</footer>
+	</section>
 <script type="text/javascript" src="styles/libs/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="styles/libs/bootstrap-3.3.7/js/bootstrap.min.js"></script>
 <!-- <script type="text/javascript" src="js/libs/angular.min.js"></script> -->

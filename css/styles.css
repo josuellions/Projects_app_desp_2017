@@ -280,15 +280,16 @@
 		box-sizing: border-box;
 	}
 	div > .nomeEmpresa{
-		font-size: 1.7rem;
-		margin-left: 24%;
-		margin-top: -17%; 
+		font-size: 1.6rem;
+		margin-left: 10%;
+		margin-top: -7%; 
 		color: rgb(255, 255, 255);
+		text-shadow: rgb(255, 255, 255); 
 	}
 
 	.btnMenuSup {
-		margin-top: -100%;
-		margin-left: -100%;
+		margin-top: -111%;
+		margin-left: -10%;
 	}
 
 

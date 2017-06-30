@@ -14,8 +14,6 @@
 		var exib =response;
 
 		$.each(exib, function(descricao_cx,valor_cax){
-		//console.log(despesa_ent, valor_ent)
-
 			if(exib.length) {
 				$('#tbList_cx > tbody').append(
 					'<tr>' + '<td>' + this.descricao_cx + 
