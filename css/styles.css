@@ -284,11 +284,12 @@
 	}
 	.nomeEmpresa{
 		font-size: 0.9rem;
-		margin-left: 14%;
-		margin-top: -7%; 
+		margin-left: 2%;
+		margin-top: 4%; 
 		color: rgb(255, 255, 255);
 		text-shadow: rgb(255, 255, 255); 
-		padding: 2%;
+		padding: -1%;
+		background: blue;
 	}
 
 	/*definindo fonte do titulo h1 */
@@ -299,38 +300,57 @@
 		font-weight: bold;
 		font-size: 1.7rem;
 		color: #118593;
-		margin-top: 5%;
+		margin-top: 1%;
 		padding: 2%;
+		background:orange;
 
 
 	}
 
 	.btnMenuSup {
-		margin-top: -80%;
+		margin-top: 2%;
+		background: red;
 	}
 
 	.exibDadosEnt {
-		 margin-top: 10%
+		 margin-top: 0%
 		 font-size: 0.5rem; 
-		 margin-left: -1%;
+		 /*left: 5%;*/
 		 color:#118593;
+		 padding-left: 0%;
+		 background: darkblue;
 
 
 	}
 
 	.exibDadosCx {
 
-		 margin-top: -10%
+		 margin-top: 0%;
 		 font-size: 0.5rem; 
-		 margin-left: -1%;
+		 /*margin-left: 0%;*/
 		 color:#118593;
+		 background: darkred;
 
+	}
+
+	.entDados {
+		height-top: 40%: 
 	}
 
 	tbody {
 		 font-size: 0.7rem;
-		  margin-left: -1%;
+		  margin-left: 0%;
 		  color:#118593;
+	}
+
+	input {
+		margin-bottom: 1rem;
+	}
+
+	button {
+
+		margin-bottom: 1rem;
+
 	}
 
 
@@ -344,21 +364,26 @@
 
 	.label_01 {
 		font-size: 1.2rem; 
-		margin-left: -1%;
+		margin-left: 0%;
 		 color:#118593;
-		 margin-top: 5% ;
+		 margin-top: 0% ;
 	}
 
 	.inpute_01 {
 		font-size: 1rem; 
-		margin-left: -10%;
+		margin-left: 0%;
 		 color:#118593;
-	 	 margin-top: 5% ;
+	 	 margin-top: 0% ;
+	 	 margin-bottom: 5%;
 	}
 	.button_01 {
 		margin-left:  0%; 
-		margin-top: 5% ;
+		margin-top: 0% ;
+		margin-bottom: 5%;
 		
+	}
+	footer {
+		margin-top:  15%;
 	}
 
 

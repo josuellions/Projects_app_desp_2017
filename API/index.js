@@ -38,7 +38,7 @@ app.post('/inserir/ent_desp', function(req,res){
 
       if (nome != "") {
 
-         var sql = 'INSERT INTO `despesas`.`ent_desp` (`despesa_ent`,`valor_ent`) VALUES (\''+despesa_ent+valor_ent+'\');';
+         var sql = 'INSERT INTO `despesas`.`ent_desp` (`despesa_ent`,`valor_ent`) VALUES (\''+nome+'\');';
          connection.query(sql ,
          function(err, rows, fields) {
 

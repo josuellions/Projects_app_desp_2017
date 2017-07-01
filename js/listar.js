@@ -1,6 +1,8 @@
 (function($){
 	$("#btnEnter").click(function(){
 	var settings = {
+		   "async": true,
+                                "crossDomain": true,
 	  "url": "http://21.21.21.5:3000/listar/despesa",
 	  "method": "GET",
 	  "headers": {
