@@ -10,7 +10,9 @@ include 'construct/construct.php';
 
 <title>Despesas_app</title>
         <!-- Bootstrap -->
-<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="styles/libs/bootstrap-3.3.7/css/bootstrap.css">
+
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,24 +38,24 @@ include 'construct/construct.php';
 <body>
 
   <section data-role="page">
-      <header   data-position="fixed">
+      <header data-position="fixed">
      
 		<!-- Imagem Logo com link -->
 		<div class="container">
 			<div class="row">
 				<div class="form-group" class="pull-left">
-					<div class="col-xs-1 col-sm-1">
+					<div>
 						<a href="/">
 							<img src='img/logo_seven.png' title="Logo"  class="icon" >
 						</a>
 					</div>
 					<!-- Nome da empresa -->
-					<div  class="col-xs-8 col-sm-8 ">
+					<div">
 						<div class="nomeEmpresa">
-							<p  title="Nome enpresa">&copy Seven Solutions Tecnologic</p>
+							<p  title="Nome enpresa">&copy Seven Solutions Tecnolog</p>
 						</div>
 					</div>
-					<div  class="col-xs-1 col-sm-1">
+					<div>
 						<div class="pull-right">
 							<div class="btnMenuSup">
 								<buton type="button" name="Entrada" class="btn btn-primary"  class="img-circle" aria-label="Alinhar" >
@@ -128,7 +130,7 @@ include 'construct/construct.php';
 	<!-- <div class="container" > -->
 		<div class="row">
 			<div class="text-center text-uppercase text-danger">
-				<div class="col-xs-12 col-sm-12">
+				<div>
 					<!-- Titulo Principal -->
 					<h1 class="tituloSup" class="text-danger" >Despesas Mensal</h1>
 				</div>
@@ -193,20 +195,19 @@ include 'construct/construct.php';
 </div> -->	
 	
 			<!-- </form> -->
-	<div class="container" style="background:blue">
+	<div class="container">
 		<!-- <div class="row"> -->
 					<!-- <section class="entDados" > -->
 						<!-- <form ng-submit="addAddress(newDespesa)"> -->
 							<!-- <div class="pull-left" > -->
 								<!--Botoes de ação-->
-								<div  class="col-xs-12 col-md-12" class="inpute_01">
-									<label class="label_01 " class="text-danger">Despesas:</label>
+								<div  class="col-xs-12 col-md-12">
+									<label class="label_01 text-danger">Despesas:</label>
 									<input type="text-primary" name="despesa"  ng-model="newDespesa.despesa" placeholder="tipo despesa" />
-									
 								</div>
 
-								<div  class="col-xs-12 col-md-12" class="inpute_01">
-									<label class="label_01 " class="text-danger" class="sr-only">Valor:</label>
+								<div  class="col-xs-12 col-md-12">
+									<label class="label_02 text-danger">Valor:</label>
 									<input type="text-primary" name="valor"  placeholder="R$ 0.000,00" ng-model="newDespesa.valor"/>
 									
 								</div>
@@ -218,8 +219,8 @@ include 'construct/construct.php';
 					<!-- </section> -->
 				<!-- </div>	 -->
 		</div>
-<footer data-position="fixed" style="background:cyan">
-
+<footer data-position="fixed">
+<p>&copy 2017 - Josuel A. Lopes</p>
 </footer>
 	</section>
 
@@ -227,7 +228,6 @@ include 'construct/construct.php';
 <!-- <script type="text/javascript" src="construct/script_app.js"></script> -->
 <script type="text/javascript" src="js/listar.js"></script>
 <script type="text/javascript" src="js/listar_entrada.js"></script>
-<!--<link rel="stylesheet" href="styles/libs/bootstrap-3.3.7/css/bootstrap.css">-->
 <!--<link rel="stylesheet" type="text/css" href="css/styles_reset.css">-->
 </body>
 </html>

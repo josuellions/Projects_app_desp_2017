@@ -18,10 +18,12 @@
 		/*background-color: rgba(2, 48, 119, 0.64);*/
 		/*background-size: 22px auto;*/
 		border-radius: 50%;
-		margin-left: -2%;
-		margin-top: 2%;
+		margin-left: 1%;
+		margin-top: 1%;
 		/*height: 15%;*/
 		width: 35px;
+		position: fixed;
+
 	}			
  /*style="background-color: rgba(2, 48, 119, 0.64); width:100%";*/
 
