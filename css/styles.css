@@ -290,7 +290,7 @@
 		text-shadow: rgb(255, 255, 255); 
 		padding: 0%;
 		/*background: blue;*/
-		width: 45%;
+		width: 60%;
 		position: fixed;
 	}
 
@@ -305,15 +305,15 @@
 		margin-top: 15%;
 		padding: 2%;
 		/*background:orange;*/
-		width: 100%;
+		/*width: 100%;*/
 
 
 	}
 
 	.btnMenuSup {
 		float: right;
-		margin-bottom: 5%;
-		margin-right: 15%;
+		margin-bottom: 15%;
+		margin-right: 45%;
 		margin-top: -20%;
 		/*background: red;*/
 	}
@@ -405,7 +405,7 @@
 		
 	}
 	footer {
-		margin-top:  85%;
+		margin-top:  51%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
