@@ -285,13 +285,13 @@
 	.nomeEmpresa{
 		font-size: 0.9rem;
 		margin-left: 13%;
-		margin-top: 6%; 
+		margin-top: -5%; 
 		color: rgb(255, 255, 255);
 		text-shadow: rgb(255, 255, 255); 
 		padding: 0%;
 		/*background: blue;*/
 		width: 60%;
-		position: fixed;
+		/*position: fixed;*/
 	}
 
 	/*definindo fonte do titulo h1 */
@@ -314,7 +314,7 @@
 		/*float: right;*/
 		margin-bottom: 2%;
 		margin-right: 10%;
-		margin-top: 1%;
+		margin-top: -11%;
 		padding: 0;
 		width: 10%;
 		/*margin-left: 5%;*/
@@ -364,12 +364,12 @@
 
 
 	/*definindo cor fundo borda superior da pagina */
-	.container > .bg-01 {
+	.bg-01 {
 		background-color: rgba(2, 48, 119, 0.64);
 		/*height: 6%;*/
-		width: 100%;
+		/*width: 99%;*/
 		/*background: rgba(2, 48, 119, 0.64);*/
-		position: fixed;
+		/*position: fixed;*/
 	}
 
 	div > .label_01 {
@@ -409,7 +409,7 @@
 		
 	}
 	footer {
-		margin-top:  75%;
+		margin-top:  70%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
