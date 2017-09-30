@@ -373,14 +373,14 @@
 	}
 
 	div > .label_01 {
-		font-size: 1.2rem; 
+		font-size: 1rem; 
 		margin-left: 0%;
 		 /*color:#118593;*/
-		 margin-top: 1% ;
+		 margin-top: 25% ;
 	}
 
 		div > .label_02 {
-		font-size: 1.2rem; 
+		font-size: 1rem; 
 		margin-left: 0%;
 		 /*color:#118593;*/
 		 margin-top: 2%;
@@ -409,7 +409,7 @@
 		
 	}
 	footer {
-		margin-top:  67%;
+		margin-top:  60%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
