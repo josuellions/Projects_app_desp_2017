@@ -28,6 +28,6 @@
 
 <icon src="img/seven_icon.png" />
 <plugin name="cordova-plugin-splashscreen" spec="4.0.3" />
-<splash src="splash.png" />
+<splash src="img/logo_seven.png" />
 
 </widgets>
