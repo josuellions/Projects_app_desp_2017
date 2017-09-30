@@ -310,11 +310,13 @@
 
 	}
 
-	.btnMenuSup {
-		float: right;
-		margin-bottom: 15%;
-		margin-right: 85%;
-		margin-top: -20%;
+.btnMenuSup {
+		/*float: right;*/
+		margin-bottom: 2%;
+		margin-right: 5%;
+		margin-top: 1%;
+		/*margin-left: 5%;*/
+		/*position: fixed;*/
 		/*background: red;*/
 	}
 
@@ -360,7 +362,7 @@
 
 
 	/*definindo cor fundo borda superior da pagina */
-	header  > div {
+	.container > .bg-01 {
 		background-color: rgba(2, 48, 119, 0.64);
 		/*height: 6%;*/
 		width: 100%;
@@ -405,7 +407,7 @@
 		
 	}
 	footer {
-		margin-top:  65%;
+		margin-top:  85%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
