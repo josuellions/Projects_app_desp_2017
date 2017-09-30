@@ -313,7 +313,7 @@
 	.btnMenuSup {
 		float: right;
 		margin-bottom: 15%;
-		margin-right: 45%;
+		margin-right: 85%;
 		margin-top: -20%;
 		/*background: red;*/
 	}
@@ -405,7 +405,7 @@
 		
 	}
 	footer {
-		margin-top:  51%;
+		margin-top:  65%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
