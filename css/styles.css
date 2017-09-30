@@ -315,6 +315,8 @@
 		margin-bottom: 2%;
 		margin-right: 5%;
 		margin-top: 1%;
+		padding: 0;
+		width: 10%;
 		/*margin-left: 5%;*/
 		/*position: fixed;*/
 		/*background: red;*/
@@ -407,7 +409,7 @@
 		
 	}
 	footer {
-		margin-top:  85%;
+		margin-top:  80%;
 		background-color: rgba(2, 48, 119, 0.64);
 		/*width: 100%;*/
 		/*height: 50%;*/
